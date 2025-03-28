@@ -12,17 +12,15 @@
         android:layout_height="wrap_content"
         android:hint="Enter number"
         android:inputType="text" />
-
-    <!-- Dropdown for input base -->
+    <!-- Drop box -->
     <Spinner
         android:id="@+id/spinnerInputBase"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <!-- Dropdown for output base -->
     <Spinner
         android:id="@+id/spinnerOutputBase"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <!-- Convert Button -->
@@ -37,8 +35,8 @@
         android:id="@+id/resultText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Result will be shown here" />
+        android:text="Result will be shown here"
+        android:textSize="18sp" />
 </LinearLayout>
